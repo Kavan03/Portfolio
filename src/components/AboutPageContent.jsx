@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PText from './PText';
 import image from '../assets/images/about-sec-img.png';
 import AboutInfoItem from './AboutInfoItem';
-import Resume from '../assets/data/Kavan_Resume.pdf';
+import Resume from '../assets/data/Resume_Kavan_Patel.pdf';
 
 const Style = styled.div`
   padding: 20rem 0 10rem 0;
@@ -106,7 +106,7 @@ export default function AboutPageContent() {
                 my experience across different industries.
               </PText>
             </div>
-            <a href={Resume} download="Kavan_Resume.pdf">
+            <a href={Resume} download="Resume_Kavan_Patel.pdf">
               Download Resume
             </a>
           </div>
