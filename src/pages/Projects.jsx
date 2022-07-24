@@ -33,6 +33,7 @@ export default function Projects() {
             duration={item.duration}
             desc={item.desc}
             img={item.img}
+            link = {<a href={item.link} target="_blank" rel="noopener noreferrer">GIT LINK</a>}
           />
         ))}
       </div>

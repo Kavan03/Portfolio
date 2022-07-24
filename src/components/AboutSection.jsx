@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
 import Button from './Button';
-import Img from '../assets/images/about-sec-img.png';
+import Img from '../assets/images/home.JPG';
 
 const Style = styled.div`
   padding: 10rem 0;
@@ -83,14 +83,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            My name is Kavan Patel, and I am 24 years old, positive,
-            enthusiastic and competent Web Developer who, over the years, has
-            built up a diverse range of skills, qualities and attributes that
-            guarantee I will perform highly in this role. I have experience
-            working both alone and as part of a team on often time-sensitive,
-            challenging web development projects that require outstanding
-            creative and technical capabilities and the ability to ensure all
-            work is optimized across a wide range of platforms.
+          Pursuing Master of Applied Computer Science at Dalhousie University. Experienced in JavaScript and Full-Stack development, as well as Java and Problem Solving. Seeking an internship or full-time job in software development or a similar field to put my skills to use for the benefit of the organization and myself. A strong conviction in hard effort and an optimistic outlook on life. A good team member who can successfully interact with coworkers, clients, and superiors.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnlink="/projects" btntext="Works" />

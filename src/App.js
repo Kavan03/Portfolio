@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Error from './pages/Error';
 import ScrollTop from './components/ScrollTop';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
 
 export default function App() {
   return (
@@ -31,6 +33,7 @@ export default function App() {
             <Error />
           </Route>
         </Switch>
+        <ToastContainer />
       </Router>
     </section>
   );

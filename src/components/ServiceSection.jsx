@@ -36,8 +36,8 @@ export default function ServiceSection() {
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="Web Development"
-            Text="I also develop the websites, create high performance websites within given time limit with full efficiency and commitment."
+            title="Software Development"
+            Text="Develop, create high performance softwares within given time limit with full efficiency and commitment."
           />
           <ServicesSectionItem
             icon={<MdPhonelinkSetup />}

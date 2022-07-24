@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from './PText';
-import ProfileImg from '../assets/images/ProfileImg.jpg';
+import image from '../assets/images/about-sec-img.png';
 import AboutInfoItem from './AboutInfoItem';
 import Resume from '../assets/data/Kavan_Resume.pdf';
 
@@ -86,22 +86,14 @@ export default function AboutPageContent() {
         <div className="top-section">
           <div className="left">
             <p className="about__subheading">Hi I'm Kavan Patel</p>
-            <h2 className="about__heading">A Web Developer</h2>
+            <h2 className="about__heading">A Full Stack Developer</h2>
             <div className="about__info">
               <PText>
-                My name is Kavan Patel, and I am 24 years old, positive,
-                enthusiastic and competent Web Developer who, over the years,
-                has built up a diverse range of skills, qualities and attributes
-                that guarantee I will perform highly in this role. I have
-                extensive experience working both alone and as part of a team on
-                often time-sensitive, challenging web development projects that
-                require outstanding creative and technical capabilities and the
-                ability to ensure all work is optimized across a wide range of
-                platforms. <br />
+              My name is Kavan Patel, and I am a 25-year-old, positive, energetic, and skilled Full Stack Developer who has accumulated a varied set of skills, traits, and attributes that ensure I will do well in this profession. I have vast experience working both as an individual and as part of a team on time-sensitive, tough development projects that need exceptional creative and technical talents as well as the ability to guarantee all work is optimized across a wide variety of platforms. <br />
                 <br />
                 I started working as an intern at Silverwing Technologies
                 Private Limited to gain an experience of corporate world, where
-                I worked for 1 year in technologies like Angular 6+. Adding to
+                I worked for 9 months in technologies like Angular 6+. Adding to
                 my portfolio, I worked for 2 years at well-known MNC Tata
                 Consultancy Services, where I worked as an Assistant System
                 Engineer from August 2019- June 2021. I have come in touch with
@@ -119,26 +111,15 @@ export default function AboutPageContent() {
             </a>
           </div>
           <div className="right">
-            <img src={ProfileImg} alt="Profile_Img" />
+            <img src={image} alt="Profile_Img" />
           </div>
         </div>
         <div className="about__info__items">
           <div className="about_info_item">
             <h1 className="about__info__heading">Education</h1>
-            <AboutInfoItem
-              title="School Class X"
-              items={['Ambe Vidyalaya, Gujarat, India', 'Percentage : 85.50%']}
-            />
-            <AboutInfoItem
-              title="School Class XII"
-              items={[
-                'Bright English Medium School, Gujarat, India',
-                'Percentage : 80%',
-              ]}
-            />
             <br />
             <AboutInfoItem
-              title="Collage Bachelors"
+              title="Bachelor's (2015-2019)"
               items={[
                 'Government Engineering College, Gandhinagar, India',
                 'Course : Information Technology',
@@ -147,7 +128,7 @@ export default function AboutPageContent() {
             />
             <br />
             <AboutInfoItem
-              title="University Masters"
+              title="Master's (2021-2023)"
               items={[
                 'Dalhousie University, Nova Scotia, Canada',
                 'Course : Master of Applied Computer Science',
@@ -157,35 +138,43 @@ export default function AboutPageContent() {
           <div className="about_info_item">
             <h1 className="about__info__heading">Technical Skills</h1>
             <AboutInfoItem
-              title="Languages"
-              items={['C', 'C++', 'Java', 'Python', 'SQL']}
+              title="Programming Languages"
+              items={['Java', 'JavaScript', 'SQL']}
             />
             <br />
             <AboutInfoItem
               title="Web Technologies"
-              items={['HTML5', 'CSS3', 'Bootstrap', 'JavaScript']}
+              items={['HTML5', 'CSS3', 'Bootstrap4', 'jQuery', 'ReactJS','NextJS','NodeJS']}
             />
+            <br />
+            <br />
             <br />
             <AboutInfoItem
-              items={['jQuery', 'ReactJS', 'Embedded JavaScript']}
+              title="Database / Cloud"
+              items={['MySQL', 'Amazon DynamoDB', 'Google Firestore', 'Neo4j']}
             />
             <br />
-            <br />
-            <br />
+            <br/>
             <AboutInfoItem
               title="Tools"
-              items={['Visual Studio', 'Net Beans-IDE', 'Xampp', 'WinSCP']}
+              items={['GIT', 'GitLab', 'Docker', 'JIRA', 'MySQL Workbench', 'VS Code']}
             />
             <br />
             <AboutInfoItem
-              items={['Postman', 'GIT', 'GitHUB', 'npm', 'Atom', 'Express.js']}
+              items={['WinSCP','Postman','Eclipse','Atom','IntelliJ']}
             />
             <br />
             <br />
-            <br />
+            <br/>
             <AboutInfoItem
-              title="Database"
-              items={['MySQL', 'MongoDB with Mongoose']}
+              title="Software Methodologies"
+              items={['SDLC','SOLID Principles','Agile','System Requirement Specification','Test Driven Development (TDD)']}
+            />
+            <br/>
+            <br/>
+            <AboutInfoItem
+              title="Cloud Technologies"
+              items={['Amazon Web Services (AWS)','Google Cloud Platform (GCP)']}
             />
           </div>
           <div className="about_info_item">

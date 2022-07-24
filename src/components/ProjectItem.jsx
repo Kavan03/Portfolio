@@ -46,6 +46,7 @@ export default function ProjectItem({
   title = 'Project Name',
   duration = 'Date',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  link = <a href="https://github.com/Kavan03" target="_blank" rel="noopener noreferrer"><u>GIT LINK</u></a>
 }) {
   return (
     <ProjectItemStyles>
@@ -54,6 +55,8 @@ export default function ProjectItem({
         <h3 className="projectItem__title">{title}</h3>
         <h5 className="projectItem__duration">{duration}</h5>
         <p className="projectItem__desc">{desc}</p>
+        <br/>
+        <h1 className="projectItem__duration">{link}</h1>
       </div>
     </ProjectItemStyles>
   );

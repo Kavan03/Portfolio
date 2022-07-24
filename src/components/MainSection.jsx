@@ -155,7 +155,7 @@ export default function MainSection() {
                 'Hey!!',
                 'Welcome:)',
                 "I'm Kavan Patel",
-                'Web Developer',
+                'Full Stack Developer',
               ]}
               typeSpeed={40}
               backSpeed={60}

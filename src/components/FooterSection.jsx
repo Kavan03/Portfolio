@@ -93,13 +93,13 @@ export default function FooterSection() {
           <ContactFooter
             heading="Contact Details"
             Links={[
-              { title: '+91-6354714548', path: 'tel:+91-6354714548' },
+              { title: '+1-902-989-6376', path: 'tel:+1-902-989-6376' },
               {
                 title: 'kavanp193@gmail.com',
                 path: 'mailto:kavanp193@gmail.com',
               },
               {
-                title: 'Gujarat, India',
+                title: 'Halifax, Nova Scotia, Canada',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -120,7 +120,7 @@ export default function FooterSection() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>© 2021 - Kavan Patel | Web Developer</PText>
+          <PText>© 2022 - Kavan Patel | Full Stack Developer</PText>
         </div>
       </div>
     </Styles>

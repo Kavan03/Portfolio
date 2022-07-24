@@ -1,6 +1,7 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
 import styled from 'styled-components';
+import { toast } from "react-toastify";
+import emailjs from 'emailjs-com';
 
 const FormStyle = styled.form`
   width: 100%;
@@ -44,19 +45,19 @@ const FormStyle = styled.form`
   }
 `;
 
-export default function ContactForm() {
+const ContactForm = () => {
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        'service_bt1qu97',
-        'template_u2jsw4l',
+        'gmail',
+        'template_mpqa9wb',
         e.target,
-        'user_feZjYF2bLOlSJBUqFnhT1'
+        'C50BD60O_L1VisqwN'
       )
       .then(
         (result) => {
+          toast.success('Message sent successfully!!');
           console.log(result.text);
         },
         (error) => {
@@ -64,11 +65,10 @@ export default function ContactForm() {
         }
       );
     e.target.reset();
-    alert('Message sent successfully!!');
   }
   return (
-    <div onSubmit={sendEmail}>
-      <FormStyle>
+    <div>
+      <FormStyle onSubmit={sendEmail}>
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -110,3 +110,4 @@ export default function ContactForm() {
     </div>
   );
 }
+export default ContactForm;

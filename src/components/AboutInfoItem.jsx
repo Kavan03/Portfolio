@@ -9,7 +9,7 @@ const Style = styled.div`
   /* gap: 5rem; */
   margin-top: 3rem;
   .title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-family: 'Klee One', cursive;
   }
   .items {
