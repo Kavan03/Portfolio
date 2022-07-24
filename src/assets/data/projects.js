@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ddb from '../images/ddb.PNG';
 import smarticle from '../images/smarticle.png';
 import genealogy from '../images/genealogy.png';
-import portfolio from '../images/portfolio.PNG';
+import image from '../images/portfolio.PNG';
 import cloud from '../images/cloud.PNG';
 import serverless from '../images/serverless.PNG'
 
@@ -50,7 +50,7 @@ const projects = [
     desc:
       'I wanted to present clear information about my professional experience and achievements as part of my portfolio, which highlight my experience, educational background, appreciations, achievements, and certificates.',
       link: 'https://github.com/Kavan03/Kavan-s-Portfolio',
-      img: portfolio
+      img: image
   },
   {
     id: uuidv4(),
