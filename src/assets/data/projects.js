@@ -49,7 +49,7 @@ const projects = [
     duration: 'July 2022',
     desc:
       'I wanted to present clear information about my professional experience and achievements as part of my portfolio, which highlight my experience, educational background, awards, appreciations, achievements, and certifications.',
-      link: 'https://github.com/Kavan03/Kavan-s-Portfolio',
+      link: 'https://github.com/Kavan03/Portfolio',
       img: imageportfolio
   },
   {
