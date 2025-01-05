@@ -49,12 +49,12 @@ const testimonials = [
     org: 'Dalhousie University, Halifax, Canada',
     link: 'https://www.linkedin.com/feed/update/urn:li:activity:6972058457566801920/',
     desc: `Teaching Assistant & Marker <br> 
-TA - CSCI 2100 Workplace Communications for Computer Science (Sep 2023 - Dec 2023)<br>
-Marker - CSCI 1170 Introduction to Web Design and Development (Sep 2023 - Dec 2023)<br>
-Marker - CSCI 1170 Introduction to Web Design and Development (Jan 2023 - Apr 2023)<br>
-TA - CSCI 1107 Social Computing (Sep 2022 - Dec 2022)<br>
-TA & Marker - CSCI 2100 Workplace Communications for Computer Science (Sep 2022 - Dec 2022)<br>
-Marker - CSCI 1105 Introduction to Computer Programming (Sep 2022 - Dec 2022)`,
+• TA - CSCI 2100 Workplace Communications for Computer Science (Sep 2023 - Dec 2023)<br>
+• Marker - CSCI 1170 Introduction to Web Design and Development (Sep 2023 - Dec 2023)<br>
+• Marker - CSCI 1170 Introduction to Web Design and Development (Jan 2023 - Apr 2023)<br>
+• TA - CSCI 1107 Social Computing (Sep 2022 - Dec 2022)<br>
+• TA & Marker - CSCI 2100 Workplace Communications for Computer Science (Sep 2022 - Dec 2022)<br>
+• Marker - CSCI 1105 Introduction to Computer Programming (Sep 2022 - Dec 2022)`,
 },
   {
     id: 7,

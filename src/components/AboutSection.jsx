@@ -83,7 +83,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-          I hold a Master of Applied Computer Science Degree from Dalhousie University and a Bachelor of Engineering in Information Technology from Gujarat Technological University. Currently an IT Developer II at Canada Revenue Agency, I specialize in Full-Stack development using Angular and Java, and have achieved significant performance improvements through REST API integration. Previously, as a System Engineer at Tata Consultancy Services, I developed over 55 COVID-19 Pfizer BioNTech websites and led successful migrations to enhance website performance. I am seeking an internship or full-time role in software development to apply my skills for the benefit of both the organization and myself, and I thrive in collaborative environments.
+          Hi, I’m Kavan! With a Master’s in Applied Computer Science from Dalhousie University and 4 years of experience at CRA and TCS, I specialize in building scalable, efficient software solutions. At CRA, I led the development of key modules like Trust Beneficiary, Account Balance, Authorization Request, Submit Documents and more, streamlining workflows for over a million users and optimizing REST APIs to save costs. At TCS, I enhanced vaccine information platforms for Pfizer BioNTech, boosting performance by 75% and improving global accessibility. Proficient in Angular, Java, ReactJS, and cloud technologies, I’m passionate about solving complex problems and delivering impactful results.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnlink="/projects" btntext="Works" />

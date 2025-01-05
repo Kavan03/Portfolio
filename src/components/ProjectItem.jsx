@@ -45,16 +45,21 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   duration = 'Date',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  desc = ['Lorem Ipsum is simply dummy text of the printing and typesetting industry.'],
   link = <a href="https://github.com/Kavan03" target="_blank" rel="noopener noreferrer"><u>GIT LINK</u></a>
 }) {
+  const descriptionLines = Array.isArray(desc) ? desc : [desc];
   return (
     <ProjectItemStyles>
       <img className="projectItem__img" src={img} alt="project img" />
       <div className="projectItem__info">
         <h3 className="projectItem__title">{title}</h3>
         <h5 className="projectItem__duration">{duration}</h5>
-        <p className="projectItem__desc">{desc}</p>
+        <div className="projectItem__desc">
+          {descriptionLines.map((line, index) => (
+            <p key={index} style={{ marginBottom: '1rem' }}>{line}</p>
+          ))}
+        </div>
         <br/>
         <h1 className="projectItem__duration">{link}</h1>
       </div>

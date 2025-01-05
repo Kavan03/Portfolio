@@ -68,7 +68,13 @@ export default function ExperienceSection() {
               <h3 className="vertical-timeline-element-subtitle">
                 {element.location}
               </h3>
-              <p id="description">{element.desc}</p>
+              <div id="description">
+                {Array.isArray(element.desc)
+                  ? element.desc.map((text, index) => (
+                      <p key={index} style={{ fontSize: '20px' }}>{text}</p>
+                    ))
+                  : null}
+              </div>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
